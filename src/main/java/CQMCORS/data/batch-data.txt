@@ -1,0 +1,9 @@
+2021-09-29|80.0|Adultered|Open Pastures
+2021-09-29|250.0|Un-adultered|Valley Acres
+2021-09-29|225.5|Un-adultered|Prime Livestock
+2021-09-29|130.0|Un-adultered|Open Pastures
+2021-09-30|154.0|Adultered|Prime Livestock
+2021-09-30|200.0|Un-adultered|Valley Acres
+2021-09-30|125.0|Un-adultered|Valley Acres
+2021-09-30|175.5|Un-adultered|Open Pastures
+2021-10-14|150.0|Adultered|Prime Livestock

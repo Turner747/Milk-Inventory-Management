@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" vgap="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CQMCORS.PrimaryController">
+  <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="342.0" minWidth="10.0" prefWidth="318.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="293.0" minWidth="10.0" prefWidth="223.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="319.0" minWidth="10.0" prefWidth="319.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="182.0" minHeight="10.0" prefHeight="180.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="199.0" minHeight="25.0" prefHeight="52.0" />
+      <RowConstraints maxHeight="167.0" minHeight="16.0" prefHeight="37.0" valignment="TOP" />
+      <RowConstraints maxHeight="167.0" minHeight="25.0" prefHeight="26.0" />
+      <RowConstraints maxHeight="171.0" minHeight="24.0" prefHeight="24.0" />
+      <RowConstraints maxHeight="172.0" minHeight="21.0" prefHeight="26.0" />
+    <RowConstraints maxHeight="180.0" minHeight="21.0" prefHeight="26.0" />
+    <RowConstraints maxHeight="162.0" minHeight="5.0" prefHeight="17.0" />
+    <RowConstraints maxHeight="230.0" minHeight="27.0" prefHeight="29.0" />
+      <RowConstraints maxHeight="250.0" minHeight="10.0" prefHeight="96.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="102.0" minHeight="0.0" prefHeight="25.0" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <Label text="CQMC" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="batchesButton" maxWidth="110.0" mnemonicParsing="false" onAction="#batchButtonPressed" prefWidth="110.0" text="Batches" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button fx:id="deliveriesButton" maxWidth="110.0" mnemonicParsing="false" onAction="#deliveryButtonPressed" prefWidth="110.0" text="Deliveries" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button fx:id="farmsButton" maxWidth="110.0" mnemonicParsing="false" onAction="#farmButtonPressed" prefWidth="110.0" text="Farms" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Button fx:id="dairiesButton" maxWidth="110.0" mnemonicParsing="false" onAction="#dairyButtonPressed" prefWidth="110.0" text="Dairies" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Button fx:id="exitButton" maxWidth="110.0" mnemonicParsing="false" onAction="#exitButtonPressed" prefWidth="110.0" text="Exit" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="8" />
+      <Label text="Operations Recording System" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="saveButton" maxWidth="110.0" mnemonicParsing="false" onAction="#saveButtonPressed" prefWidth="110.0" text="Save" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="8" />
+      <Button fx:id="aboutButton" maxWidth="70.0" mnemonicParsing="false" onAction="#aboutButtonPressed" prefWidth="70.0" text="About" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+   </children>
+   <padding>
+      <Insets bottom="30.0" left="60.0" right="60.0" top="30.0" />
+   </padding>
+</GridPane>
